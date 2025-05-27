@@ -561,11 +561,12 @@ Let’s collaborate, innovate, and shape the future—one creation at a time.
           <div>
             <p class="section-subtitle" id="portfolio-label">My work</p>
 
-            <h2 class="h2 section-title">Java & python</h2>
+            <h2 class="h2 section-title">blogs page</h2>
           </div>
 
           <p class="section-text">
-     I developed this project using java and python libraries.
+     Here are some of my blogs that i have written on various topics related to technology, robotics, and my personal experiences in the field. Each blog reflects my passion for sharing knowledge and insights with others.
+          </p>
 
         </div>
 
@@ -960,7 +961,7 @@ Let’s collaborate, innovate, and shape the future—one creation at a time.
 <!-- 
         <li>
           <a href="#" class="social-link">
-            <!-- <ion-icon name="logo-dribbble"></ion-icon> -->
+             <ion-icon name="logo-dribbble"></ion-icon> -->
           <!-- </a>
         </li> --> 
 
@@ -989,6 +990,45 @@ Let’s collaborate, innovate, and shape the future—one creation at a time.
 
 
 
+
+
+  
+  <script>
+    async function sendMessage() {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const responseDiv = document.getElementById('responseMessage');
+
+      if (!name || !email || !message) {
+        responseDiv.textContent = "Please fill in all fields.";
+        responseDiv.style.color = "red";
+        return;
+      }
+
+      try {
+        const response = await fetch('/contact', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ name, email, message })
+        });
+
+        const result = await response.json();
+        if (result.success) {
+          responseDiv.textContent = "Message sent successfully!";
+          responseDiv.style.color = "green";
+        } else {
+          responseDiv.textContent = "Failed to send message.";
+          responseDiv.style.color = "red";
+        }
+      } catch (err) {
+        responseDiv.textContent = "Server error. Try again later.";
+        responseDiv.style.color = "red";
+      }
+    }
+  </script>
 
 
   <!-- 
