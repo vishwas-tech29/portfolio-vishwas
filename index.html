@@ -8,6 +8,18 @@
     <link rel="shortcut icon" href="https://i.postimg.cc/9fqYVvxh/logo.png" type="image/x-icon">
 </head>
 <body>
+    <canvas id="canvas"></canvas>
+<textarea id="codeEditor" class="editor" spellcheck="false" autocorrect="off" autocapitalize="off" translate="no" oninput="render()"></textarea>
+<pre id="error"></pre>
+<div id="indicator"></div>
+<div id="controls">
+  <div class="controls">
+    <input id="btnToggleView" class="icon" type="checkbox" name="toggleView" onclick="toggleView()">
+    <input id="btnToggleResolution" class="icon" type="checkbox" name="toggleResolution" onchange="toggleResolution()">
+    <input id="btnReset" class="icon" type="checkbox" name="reset" onclick="reset()">
+  </div>
+</div>
+<script type="x-shader/x-fragment"></script>
     <main>
         <aside class="sidebar " data-sidebar>
             <div class="sidebar-info">
