@@ -914,9 +914,12 @@ Let’s collaborate, innovate, and shape the future—one creation at a time.
       <label for="message"></label>
       <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
     </div>
-    <div class="submit">
-      <input type="submit" value="Send Message" id="form_button" />
-    </div>
+    <form action="/send-message" method="POST">
+  <div class="submit">
+    <input type="submit" value="Send Message" id="form_button" />
+  </div>
+</form>
+
   </form><!-- // End form -->
 </div><!-- // End #container -->
 
