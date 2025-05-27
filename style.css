@@ -1107,8 +1107,8 @@ h1 {
 input[type='text'], [type='email'], select, textarea {
 	background: none;
   border: none;
-	border-bottom: solid 2px #ffffff;
-	color: #ffffff;
+	border-bottom: solid 2px #f3f0f0;
+	color: #704b4b;
 	font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -1207,7 +1207,7 @@ textarea {
 
 #form_button:hover {
   background: #474544;
-  color: #F2F3EB;
+  color: #f4f4f4;
 }
 
 @media screen and (max-width: 768px) {
