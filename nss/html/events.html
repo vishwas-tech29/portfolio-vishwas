@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="events.css">
+    <title>events</title>
+    <link rel="website icon"  type="png"  href="/images/logo.webp" >
+</head>
+<style>
+  
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Prompt&family=Russo+One&display=swap');
+
+  
+    body {
+      font-family: 'Lato', sans-serif;
+    }
+    
+    .overlay {
+      height: 100%;
+      width: 100%;
+      display: none;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+    }
+    
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+      }
+    }
+  </style>
+
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="/html/index.html">Home</a>
+      <a href="/html/Aboutus.html">About</a>
+      <a href="/html/contact.html">Contact</a>
+      <a href="https://klh.edu.in/">klh home</a>
+    </div>
+  </div>
+  
+  <!-- <h2>Fullscreen Overlay Nav Example</h2>
+  <p>Click on the element below to open the fullscreen overlay navigation menu.</p> -->
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  
+  <script>
+  function openNav() {
+    document.getElementById("myNav").style.display = "block";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.display = "none";
+  }
+  </script>
+       
+ 
+  
+<body>
+    <div class="container">
+   <div class="img">
+    <img src="/images/pic-removebg-preview (1).png" alt="" width="300" height="100">
+   </div>
+    </div>
+    <div class="main">
+        <h1>EVENTS CONDUCTED BY NSS UNIT KLH..</h1>
+        <ul class="cards">
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="/images/IMG_0433.JPG"></div>
+              <div class="card_content">
+                <h2 class="card_title">BLOOD DONATION</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <a href="/NSS KLH Events (2)/NSS KLH Events/Blood Donation Camp 30-09-2022/BloodDonation-Report.docx" target="_blank"><button class="btn card_btn">READ MORE</button></a>
+                
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="/images/2.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">CLEAN INDIA</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <a href="/NSS KLH Events (2)/NSS KLH Events/Clean India 19-10-2022/CleanIndia Report 19-10-2022.docx"><button class="btn card_btn">Read More</button></a>
+              </div>
+            </div>
+          </li>
+          <!-- <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="https://picsum.photos/500/300/?image=11"></div>
+              <div class="card_content">
+                <h2 class="card_title">STAFF HEALTH CAMP</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <button class="btn card_btn">Read More</button>
+              </div>
+            </div> -->
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="/images/3.jpg"></div>
+              <div class="card_content">
+                <h2 class="card_title">SWACHH BHARATH</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <a href="/NSS KLH Events (2)/NSS KLH Events/Swachh Bharath 14-10-2022/SWATCH BHARAT 14-10-2022 Report.docx">
+                  <button class="btn card_btn">Read More</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="/images/15.jpg" width="380" height="150"></div>
+              <div class="card_content">
+                <h2 class="card_title">TREE PLANTATION</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <a href="/NSS KLH Events (2)/NSS KLH Events/Tree Plantation 18-10-2022/TreePlantation Report.docx"><button class="btn card_btn">Read More</button></a>
+              </div>
+            </div>
+          </li>
+          <li class="cards_item">
+            <div class="card">
+              <div class="card_image"><img src="/images/nss.jpg" width="350" height="100"></div>
+              <div class="card_content">
+                <h2 class="card_title">YOUTH DAY</h2>
+                <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                <a href="/NSS KLH Events (2)/NSS KLH Events/Youth day Celebrations Jan -09-2023/NationalYouthDay-1 Report.docx"><button class="btn card_btn">Read More</button></a>
+              </div>
+            </div>
+            <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="/images/5.jpg" width="350" height="400"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">VOTERS DAY</h2>
+                    <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                    <a href=""><button class="btn card_btn">Read More</button></a>
+                  </div>
+                </div> <li class="cards_item">
+                    <div class="card">
+                      <div class="card_image"><img src="/images/6.jpg"></div>
+                      <div class="card_content">
+                        <h2 class="card_title">BLOOD CAMP</h2>
+                        <p class="card_text">Demo of pixel perfect pure CSS simple responsive card grid layout</p>
+                        <button class="btn card_btn">Read More</button>
+                      </div>
+                    </div>
+          </li>
+        </ul>
+      </div>
+      <div class="container">
+        <div class="mawa ">
+          <a href="contact.html"><button class="button-48" role="button"><span class="text">next</span></button></a>
+
+          
+      
+    
+      
+</body>
+</html>

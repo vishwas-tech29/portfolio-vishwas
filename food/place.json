@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "name":" biryani",
+        "price": 200,
+        "image": "/food/img/1.jpg"
+    },
+    {
+        "id": 2,
+        "name":"north style biryani",
+        "price": 250,
+        "image": "/food/img/2.jpg"
+        
+    },
+    {
+        "id": 3,
+        "name":"fried biryani",
+        "price": 290,
+        "image": "/food/img/3.jpg"
+    },
+    {
+        "id": 4,
+        "name":"burgger",
+        "price": 200,
+        "image": "/food/img/4.jpg"
+    },
+    {
+        "id": 5,
+        "name":"veg wrappers",
+        "price": 300,
+        "image": "/food/img/5.jpg"
+    },
+    {
+        "id": 6,
+        "name":"pizza ",
+        "price": 200,
+        "image": "/food/img/6.jpg"
+    },
+    {
+        "id": 7,
+        "name":"spical swarma",
+        "price": 200,
+        "image": "/food/img/7.jpg"
+    },
+    {
+        "id": 8,
+        "name":" swrmassive",
+        "price": 200,
+        "image": "/food/img/9.jpg"
+    }
+
+]

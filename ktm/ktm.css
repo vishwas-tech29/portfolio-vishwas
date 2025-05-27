@@ -1,0 +1,84 @@
+*{
+  text-decoration: none;
+  
+}
+
+
+
+
+.location {
+  display: flex;
+  justify-content: space-evenly;
+ padding-bottom: 100px;
+}
+.mead1 h1{
+  text-align: center;
+
+}
+.pumkin h1{
+  text-align: center;
+}
+.pichi{
+  background-color: black;
+}
+.pichi h1{
+  color: aliceblue;
+  text-align: center;
+}
+.text-danger{
+  color: #ff8000 !important; 
+}
+.emmet{
+  text-align: center;
+}
+.mx-7{
+  margin-left: 150px;
+
+}
+.orange{
+  color: black !important;
+  background-color: #ff8000 !important;
+
+}
+.ktm{
+  /* margin-top: 150px; */
+  margin-left: 50px;
+  
+}
+/* .back{
+  background-image: url('https://s7g10.scene7.com/is/image/ktm/rc22-video-header?wid=1920&hei=1200&dpr=off');
+  background-repeat: no-repeat;
+} */
+.back img-fluid{
+  margin-right: 200px;
+}
+.line{
+  text-align: center;
+}
+.adv{
+  padding-top: 50px;
+}
+.rc{
+  padding-top: 100px;
+}
+.row{
+  padding-top: 50px;
+}
+/* .img-fluid{
+  background-color: gray;
+} */
+.monika{
+  background-image: url('logo.png');
+  background-repeat: no-repeat;
+}
+.back{
+  text-align: center;
+}
+.btn :hover{
+  transform: scale('0.1');
+  transition: 0.8s;
+  color: aliceblue;
+}
+.two{
+  padding-top:50px ;
+}
