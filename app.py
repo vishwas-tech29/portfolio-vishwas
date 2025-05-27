@@ -8,8 +8,8 @@ app = Flask(__name__)
 CORS(app)  # Optional, useful if frontend is served separately
 
 # Email credentials (use environment variables in production)
-YOUR_EMAIL = "your_email@gmail.com"
-YOUR_PASSWORD = "your_app_password"  # Use an app password, not your Gmail password
+YOUR_EMAIL = "rallapallivishwas76@gmail.com"
+YOUR_PASSWORD = "Vishwas@27"  # Use an app password, not your Gmail password
 
 @app.route('/contact', methods=['POST'])
 def contact():
